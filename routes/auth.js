@@ -9,4 +9,4 @@ router.get('/', (req, res) => {
     res.json(obj)
 })
 
-module.export = router
+module.exports = router
