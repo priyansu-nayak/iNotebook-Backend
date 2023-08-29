@@ -13,9 +13,9 @@ const port = 3000
 //   res.send('Hello login!')
 // })
 
-// app.get('/api/v1/signup',(req,res)=>{
-//   res.send('Hello signup!')
-// })
+app.get('/api/v1/signup',(req,res)=>{
+  res.send('Hello signup!')
+})
 
 
 //Available Routes
